@@ -1,5 +1,0 @@
-# Python 3.10+
-networkx
-numpy
-matplotlib
-Pillow
