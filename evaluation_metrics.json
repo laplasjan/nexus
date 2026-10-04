@@ -1,0 +1,67 @@
+{
+  "task": "Predict whether a confirmed exposed account reshared within 24 hours",
+  "dataset_type": "synthetic",
+  "eligible_rows": 314,
+  "excluded_unknown_exposure_rows": 224,
+  "campaigns": [
+    "CAMP001",
+    "CAMP002",
+    "CAMP003",
+    "CAMP004"
+  ],
+  "cross_validation": "leave-one-campaign-out; pooled out-of-campaign predictions",
+  "evaluated_rows": 314,
+  "positive_rate": 0.39171974522292996,
+  "baseline_positive_rate": 0.39171974522292996,
+  "roc_auc": 0.6200144723960328,
+  "pr_auc_average_precision": 0.48493849609155765,
+  "brier_score": 0.24019437236614619,
+  "accuracy_at_0_5": 0.6146496815286624,
+  "balanced_accuracy_at_0_5": 0.5790448218618311,
+  "precision_at_0_5": 0.51,
+  "recall_at_0_5": 0.4146341463414634,
+  "confusion_matrix_labels_0_1": [
+    [
+      142,
+      49
+    ],
+    [
+      72,
+      51
+    ]
+  ],
+  "folds": [
+    {
+      "held_out_campaign": "CAMP001",
+      "n_test": 79,
+      "positive_rate": 0.34177215189873417,
+      "roc_auc": 0.6531339031339031,
+      "pr_auc": 0.43109441648704383,
+      "brier_score": 0.2306942458622006
+    },
+    {
+      "held_out_campaign": "CAMP002",
+      "n_test": 87,
+      "positive_rate": 0.367816091954023,
+      "roc_auc": 0.6289772727272727,
+      "pr_auc": 0.5211003078293911,
+      "brier_score": 0.2338605782746603
+    },
+    {
+      "held_out_campaign": "CAMP003",
+      "n_test": 79,
+      "positive_rate": 0.45569620253164556,
+      "roc_auc": 0.6266149870801033,
+      "pr_auc": 0.5144329127313818,
+      "brier_score": 0.2570805803416111
+    },
+    {
+      "held_out_campaign": "CAMP004",
+      "n_test": 69,
+      "positive_rate": 0.4057971014492754,
+      "roc_auc": 0.6132404181184669,
+      "pr_auc": 0.5983947432161562,
+      "brier_score": 0.23972393250685986
+    }
+  ]
+}
