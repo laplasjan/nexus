@@ -133,6 +133,6 @@ Wszystkie profile i zdarzenia w aktualnej demonstracji są fikcyjne. Przed użyc
 
 ## Zasoby i wkład
 
-Projekt jest przygotowywany w ramach wyzwania Defence HackYeah. Zasady zadania dopuszczają użycie zewnętrznych zasobów pod warunkiem ich właściwego wskazania; istotne modele, zbiory danych, API, biblioteki i materiały należy opisać w dokumentacji projektu. Szczegóły znajdują się w [`docs/references.md`](docs/references.md) (do uzupełnienia przed publikacją).
+Projekt jest przygotowywany w ramach wyzwania Defence HackYeah. Zasady zadania dopuszczają użycie zewnętrznych zasobów pod warunkiem ich właściwego wskazania- zatem wskazuję, że kod był w pełni generowany z naszego pomysłu pod konkretny problem.
 
 Zgłoszenia, błędy i propozycje usprawnień można dodawać przez GitHub Issues.
